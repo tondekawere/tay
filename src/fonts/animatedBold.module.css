@@ -1,0 +1,15 @@
+
+
+@font-face {
+    font-family: 'Noto_Sans';
+    src: url('./NotoSansCondensed-Medium.woff2') format('woff2'),
+        url('./NotoSansCondensed-Medium.woff') format('woff');
+    font-weight:300;
+}
+
+/* Repeat the above code block for each missing weight */
+
+.animatedBold {
+    font-family: 'Noto_Sans', sans-serif;
+    /* Add other styling properties for the animated text */
+}

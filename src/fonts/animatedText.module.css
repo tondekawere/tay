@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'Rimba Andalas';
+    src: url('./RimbaAndalas.woff2') format('woff2'),
+        url('./RimbaAndalas.woff') format('woff');
+    /* Add other font formats if necessary */
+}
+
+.animatedText {
+    font-family: 'Rimba Andalas', sans-serif;
+    /* Add other styling properties for the animated text */
+}
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('/fonts/noto-sans-100.woff2') format('woff2'),
+        url('/fonts/noto-sans-100.woff') format('woff');
+    font-weight: 100;
+}
+
+/* Repeat the above code block for each missing weight */
+
+.animatedText {
+    font-family: 'Rimba Andalas', sans-serif;
+    /* Add other styling properties for the animated text */
+}

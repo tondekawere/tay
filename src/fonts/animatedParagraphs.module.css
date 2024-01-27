@@ -1,0 +1,15 @@
+
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('./NotoSansCondensed-Light.woff2') format('woff2'),
+        url('./NotoSansCondensed-Light.woff') format('woff');
+    font-weight: 100;
+}
+
+/* Repeat the above code block for each missing weight */
+
+.animatedParagraphs {
+    font-family: 'Noto Sans', sans-serif;
+    /* Add other styling properties for the animated text */
+}
