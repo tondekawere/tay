@@ -12,8 +12,8 @@ const FramerImage = motion(Image);
 
 const TopCard = ({ img, title, summary, link }) => {
   return (
-    <li className="relative w-full p-4 col-span-1 bg-light border  dark:bg-dark  dark:border-light border-dark border-solid rounded-2xl">
-      <div className="absolute  top-0 -right-3 -z-10 h-[103%] w-[102%]  rounded-[2rem] rounded-br-3xl  dark:bg-light  bg-dark " />
+    <li className="relative w-full p-4 col-span-1 bg-light border  dark:border-light border-dark border-solid rounded-2xl">
+      <div className="absolute  top-0 -right-3 -z-10 h-[103%] w-[102%]  rounded-[2rem] rounded-br-3xl  bg-light  " />
       <Link
         href={link}
         target="_blank"
@@ -34,7 +34,7 @@ const TopCard = ({ img, title, summary, link }) => {
           {title}
         </h5>
       </Link>
-      <p className="text-sm mb-2 text-dark  dark:text-light">{summary}</p>
+      <p className="text-sm mb-2 text-light">{summary}</p>
     </li>
   );
 };

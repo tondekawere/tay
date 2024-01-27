@@ -41,7 +41,7 @@ const Heading = ({ text, className = "" }) => {
       className="py-2  sm:py-0 w-full mx-auto flex items-center justify-center  text-center overflow-hidden"
     >
       <motion.h2
-        className={`inline-block w-full !text-navy dark:text-light font-bold capitalize text-8xl ${styles.animatedText} ${className}`}
+        className={`inline-block w-full text-light font-bold capitalize text-8xl ${styles.animatedText} ${className}`}
         variants={quote}
         initial="initial"
         animate={inView ? "animate" : "initial"}

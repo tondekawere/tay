@@ -169,7 +169,7 @@ const CustomMobileLink = ({
       )}
 
       <span
-        className={`h-[1px] inline-block bg-dark absolute dark:bg-light left-32 bottom-3 group-hover:w-full 
+        className={`h-[1px] inline-block absolute bg-light left-32 bottom-3 group-hover:w-full 
         transition-[width] ease duration-300 ${
           router.asPath === href ? "w-full" : "w-0"
         } `}
@@ -202,17 +202,17 @@ const NavBar = () => {
       >
         <span className="sr-only">Open main menu</span>
         <span
-          className={`bg-dark dark:bg-light block h-0.5 w-6 rounded-sm transition-all duration-300 ease-out ${
+          className={`  bg-light block h-0.5 w-6 rounded-sm transition-all duration-300 ease-out ${
             isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
           }`}
         ></span>
         <span
-          className={`bg-dark dark:bg-light block h-0.5 w-6 rounded-sm transition-all duration-300 ease-out opacity-100 my-0.5 ${
+          className={`  bg-light block h-0.5 w-6 rounded-sm transition-all duration-300 ease-out opacity-100 my-0.5 ${
             isOpen ? "hidden" : "opacity-100"
           } `}
         ></span>
         <span
-          className={`bg-dark dark:bg-light block h-0.5 w-6 rounded-sm transition-all duration-300 ease-out translate-y-0.5 ${
+          className={`  bg-light block h-0.5 w-6 rounded-sm transition-all duration-300 ease-out translate-y-0.5 ${
             isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
           }`}
         ></span>

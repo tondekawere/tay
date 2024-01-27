@@ -9,9 +9,9 @@ import { AiFillInstagram } from 'react-icons/ai';
 
 const Footer = () => {
   return (
-    <footer className="w-full font-medium text-lg dark:text-light sm:text-base  ">
+    <footer className="w-full font-medium text-lg text-light sm:text-base  ">
       <Layout
-        className="z-0  h-full w-full p-32  dark:bg-dark xl:p-24 lg:p-10 md:p-12  sm:p-8 sm:px-10 sm:gap-20 md:gap-20 py-8 flex 
+        className="z-0  h-full w-full p-32   xl:p-24 lg:p-10 md:p-12  sm:p-8 sm:px-10 sm:gap-20 md:gap-20 py-8 flex 
         items-center justify-between sm:grid xl:flex xl:gap-20 lg:pl-20 lg:py-6 md:w-full"
       >
         <div className="sm:w-[130%]">

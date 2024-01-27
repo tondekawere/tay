@@ -38,7 +38,7 @@ const Paragraphs = ({text, className=""}) => {
   return (
     <div className="py-2  sm:py-0 w-full mx-auto flex items-center justify-center  text-center overflow-hidden">
       <motion.p
-        className={`inline-block w-full  dark:text-light font-medium text-5xl ${styles.animatedParagraphs}  ${className}`}
+        className={`inline-block w-full text-light font-medium text-5xl ${styles.animatedParagraphs}  ${className}`}
         variants={quote}
         initial="initial"
         animate="animate"

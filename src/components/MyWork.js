@@ -35,11 +35,11 @@ const FeaturedProjects = ({ title, summary, img, link, icon }) => {
             target="_blank"
             className="hover:underline underline-offset-2"
           >
-            <h5 className="my-2 w-full text-left text-dark dark:text-light text-md font-bold  sm:text-sm">
+            <h5 className="my-2 w-full text-lefttext-light text-md font-bold  sm:text-sm">
               {title}
             </h5>
           </Link>
-          <p className=" font-medium text-xl text-dark dark:text-light sm:text-sm">
+          <p className=" font-medium text-xl text-light sm:text-sm">
             {summary}
           </p>
         </div>
@@ -53,7 +53,7 @@ const FeaturedProjects = ({ title, summary, img, link, icon }) => {
           <Link
             href={link}
             target="_blank"
-            className="w-11  text-dark dark:text-light"
+            className="w-11  text-light"
           >
             <FramerImage
               src={icon}
@@ -124,7 +124,7 @@ const Projects = ({ title, summary, img, link, icon }) => {
             target="_blank"
             className="hover:underline underline-offset-2"
           >
-            <h5 className="my-2 w-full text-left  text-dark dark:text-light text-md font-extraLight lg:text-2xl">
+            <h5 className="my-2 w-full text-left   text-light text-md font-extraLight lg:text-2xl">
               {title}
             </h5>
           </Link>
@@ -143,7 +143,7 @@ const Projects = ({ title, summary, img, link, icon }) => {
           <Link
             href={link}
             target="_blank"
-            className="w-20  text-dark dark:text-light"
+            className="w-20   text-light"
           >
             <FramerImage
               src={icon}
